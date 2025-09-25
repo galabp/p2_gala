@@ -1,5 +1,5 @@
 void gala(float posx, float posy){
-  pushMatrix();
+  push();
   translate(posx, posy);
   noFill();
 ellipse(50, 90, 60, 80);
@@ -12,5 +12,5 @@ circle(60, 80, 20);
 arc(50, 100, 30, 20, 0, PI);
 line(30, 80, 20, 80);
 line(70, 80, 80, 80);
-popMatrix();
+pop();
 }
